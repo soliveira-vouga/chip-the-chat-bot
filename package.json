@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node $NODE_DEBUG_OPTION index.js",
     "precommit": "gulp lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
